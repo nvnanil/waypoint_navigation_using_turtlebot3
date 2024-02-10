@@ -2,9 +2,11 @@
 
 ROS2 Wrapper for OpenCV Aruco Marker Tracking
 
-This package depends on a recent version of OpenCV python bindings:
+This package depends on a latest version of OpenCV python bindings:
 
 ```
+pip uninstall opencv-python
+pip uninstall opencv-contrib-python
 pip install opencv-contrib-python # or pip3
 ```
 
