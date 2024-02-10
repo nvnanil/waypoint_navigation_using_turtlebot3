@@ -1,9 +1,5 @@
-# ENPM809Y - Final Project
-```
-Name: Naveen Anil
-```
-Course:  ENPM809Y - C++ programming for Robotics
-
+# WAYPOINT NAVIGATION USING TURTLEBOT3
+![Gazebo Image]([image_url](https://github.com/nvnanil/waypoint_navigation_using_turtlebot3/blob/main/gazebo_world.png))
 ## Software Requirements
 ```
 Ubuntu 20.04
