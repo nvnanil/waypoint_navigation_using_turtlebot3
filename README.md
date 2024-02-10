@@ -12,14 +12,19 @@ RViz
 
 ```
 ### Running the code
-1. *Clone the package group13_final to your ros workspace*
-2. *Build and source the workspace*
-3. *To edit the parameters*
+1. *Clone the package to your ros workspace*
+2. *Make sure all the dependencies are installed*
 ```
-cd ~/ros_ws/src/group13_final code .
+rosdep update
+rosdep install --from-paths src -y --ignore-src
+```
+4. *Build and source the workspace*
+5. *To edit the pattern of the waypoints*
+```
+cd <path to your package>/group13_final code .
 
 ```
-*and edit the waypoints.params.yaml file*
+*and edit config/waypoints.params.yaml file*
 
 4. *Launch turtlebot3 in the maze world with RViz using*
 ```
